@@ -10,7 +10,7 @@ function App() {
   const weather =useWeather();
   useEffect(()=>{
     weather.fetchCurrentLocationData();
-  }, []);
+  }, [weather]);
   return (
     <div className="App">
       <h1>Weather Forecast</h1>
