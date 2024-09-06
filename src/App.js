@@ -10,14 +10,14 @@ function App() {
   const weather =useWeather();
   useEffect(()=>{
     weather.fetchCurrentLocationData();
-  }, [])
+  }, []);
   return (
     <div className="App">
       <h1>Weather Forecast</h1>
       <Input/>
       <Button onClick={weather.fetchData} value="Search"/>
       <Card/>
-      <Button value="Refresh"/>
+      <Button  value="Refresh"/>
     </div>
   );
 }

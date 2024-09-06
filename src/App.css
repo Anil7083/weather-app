@@ -36,23 +36,36 @@
     transform: rotate(360deg);
   }
 }
-.card{
+.card{  
+  margin: auto;
+  width: 60%;
+  width: 200px;
   padding: 10px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: rgba(27, 27, 129, 0.2) 0px 7px 29px 0px;
   border-radius: 20px;
 }
 .input-field{
+  width: 130px;
   border-radius: 10px;
-  border: 0px;
+  border: 1px solid #b4becf;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  font-size: 25px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin: 10px;
+  padding-left: 15px;
+  
+  
 }
 
 .btn{
-  border: 0px;
+  border: 1px solid;
   padding: 10px 20px;
   border-radius: 10px;
   margin: 5px;
   cursor: pointer;
+  background-color: #00e5ff;
+  color: rgb(0, 0, 0);
+  
 }
